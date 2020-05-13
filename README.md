@@ -1,2 +1,2 @@
-# Bash_practica
-Repositorio de práctica para programación Bash
+# Programas Bash #
+Repositorio para programas de práctica en lenguaje Bash
