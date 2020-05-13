@@ -1,0 +1,3 @@
+usuario4|Usuario de prueba 4|/bin/bash
+usuario5|Usuario de prueba 5|/bin/bash
+usuario6|Usuario de prueba 6|/bin/false
