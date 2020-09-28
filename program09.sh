@@ -1,4 +1,4 @@
-#°/bin/bash
+#!/bin/bash
 echo "//////////////////////////"
 echo "PROGRAMA BUSCADOR DE ARCHIVO"
 echo "//////////////////////////"
