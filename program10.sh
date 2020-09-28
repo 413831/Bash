@@ -1,12 +1,24 @@
 #!/bin/bash
 
+INPUT="n"
+
+while [ $INPUT != "y" -a $INPUT != "Y" ]; do
+
 echo "////////////////////////////"
-echo "***Programa de practica***"
+echo "***Super Calculadora B3000***"
 echo "///////////////////////////"
+echo ""
+echo "Operaciones: "
+echo "Suma (+)"
+echo "Resta (-)"
+echo "Multiplicacion (*)"
+echo "Division (/)"
+echo "Modulo (%)" 
+echo ""
 
 echo -n "Introduzca primer numero: "
 read PRIMERNUMERO
-echo -n "Introduzca simbolo operacion: " 
+echo -n "Introduzca simbolo de operacion: " 
 read  OPERACION
 echo -n "Introduzca segundo numero: "
 read SEGUNDONUMERO
@@ -43,5 +55,11 @@ if [ "${OPERACION}" == '%' ]; then
 	fi
 fi 
 
-
 echo "El resultado es: ${RESULTADO}" 
+echo ""
+echo "¿Desea salir? y/N"
+
+read INPUT
+clear
+
+done

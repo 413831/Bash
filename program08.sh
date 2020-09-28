@@ -11,5 +11,5 @@ while read LINEA; do
  USUARIO=`echo ${LINEA} | cut -d '|' -f1`
  DESCRIPCION=`echo ${LINEA} | cut -d '|' -f2`
  echo "${USUARIO}-${DESCRIPCION}-${BASH}"
- useradd -s "${BASH}" -c "${DESCRIPCION}" $USUARIO
+ useradd -m -s "${BASH}" -c "${DESCRIPCION}" $USUARIO
 done < ./$LISTADO
